@@ -26,6 +26,7 @@ public static void main(String[] args) throws InterruptedException, IOException 
     Thread.sleep(2000);
     File d=new File("D:\\Snapshot\\screencapture.png");
     FileUtils.copyFile(s, d);
+    System.out.println("hai");
     
 	
 	
